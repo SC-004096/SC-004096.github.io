@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+#wrap {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	max-width: 80%;
+	margin: 0 auto
+}
+
+.content { flex: 1 }
+.sh { display: none }
+a { text-decoration: none }
+
+@media only screen and (max-width: 740px) {
+	.h { display: none }
+	.sh { display: inline }
+}
+
+@media only screen and (max-width: 400px) {
+	#wrap{ max-width: 100% }
+	.f { display: none }
+}

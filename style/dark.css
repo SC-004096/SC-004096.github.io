@@ -1,0 +1,8 @@
+* { font: 1em"Open Sans", sans-serif }
+body { background: #161a19 }
+#wrap {
+	background: #1f2524;
+	color: #5DD9C1
+}
+footer, header { background: #29302f }
+.sf { background: #2d3634 }
